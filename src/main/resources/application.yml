@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/handson
+    username: postgres
+    password: postgres
+    continue-on-error: false
+    platform: postgresql
+  batch:
+    job:
+      enabled: false
+    initializer:
+      enabled: true
